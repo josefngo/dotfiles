@@ -26,12 +26,12 @@ mason_lspconfig.setup({
 		"html",
 		"cssls",
 		"tailwindcss",
-		-- "sumneko_lua",
 		"emmet_ls",
 		"texlab",
 		"pyright",
 		"rust_analyzer",
 		"lua_ls",
+		"ruby_ls",
 	},
 	--auto install
 	automatic_installation = true,

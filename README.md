@@ -12,7 +12,7 @@ echo "alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'" >> $H
 
 ## Installing on a new system
 
-Add the following to the .zshrc:
+Add the following to the .zshrc/bashrc:
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 echo ".cfg" >> .gitignore

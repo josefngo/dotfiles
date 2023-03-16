@@ -15,7 +15,7 @@
 Add the following to the .zshrc/bashrc:
 > alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-Then
+## Then
 
 > echo ".cfg" >> .gitignore
 

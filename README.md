@@ -24,3 +24,6 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 config checkout
 
 The last step might fail. Remove or backup the conflicting files.
+
+##tmux plugin manager
+> git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm

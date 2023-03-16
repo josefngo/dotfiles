@@ -15,6 +15,8 @@
 Add the following to the .zshrc/bashrc:
 > alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
+Then
+
 > echo ".cfg" >> .gitignore
 
 > git clone --bare <git-repo-url> $HOME/.cfg

@@ -116,8 +116,10 @@ alias vi="nvim"
 alias vim="nvim"
 alias p="python3"
 
+export GIT_EDITOR=nvim
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias config='/usr/bin/git --git-dir=/Users/josefngo/.cfg/ --work-tree=/Users/josefngo'
 eval "$(rbenv init -)"
+

@@ -107,7 +107,7 @@ lspconfig["rust_analyzer"].setup({
 	on_attach = on_attach,
 })
 
-lspconfig["ruby_ls"].setup({
+lspconfig["solargraph"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
 })

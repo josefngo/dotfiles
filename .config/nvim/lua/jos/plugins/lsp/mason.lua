@@ -31,7 +31,7 @@ mason_lspconfig.setup({
 		"pyright",
 		"rust_analyzer",
 		"lua_ls",
-		"ruby_ls",
+		"solargraph",
 	},
 	--auto install
 	automatic_installation = true,

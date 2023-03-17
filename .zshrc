@@ -120,3 +120,4 @@ alias p="python3"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias config='/usr/bin/git --git-dir=/Users/josefngo/.cfg/ --work-tree=/Users/josefngo'
+eval "$(rbenv init -)"

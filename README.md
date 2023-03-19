@@ -33,4 +33,5 @@ The last step might fail. Remove or backup the conflicting files.
 ## Font
 > brew tap homebrew/cask-fonts
 > brew install --cask font-jetbrains-mono-nerd-font
+
 Change font in iTerm

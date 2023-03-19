@@ -29,3 +29,8 @@ The last step might fail. Remove or backup the conflicting files.
 
 ## tmux plugin manager
 > git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+## Font
+> brew tap homebrew/cask-fonts
+> brew install --cask font-jetbrains-mono-nerd-font
+Change font in iTerm

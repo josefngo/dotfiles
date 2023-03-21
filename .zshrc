@@ -121,6 +121,4 @@ export GIT_EDITOR=nvim
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 alias config='/usr/bin/git --git-dir=/Users/josefngo/.cfg/ --work-tree=/Users/josefngo'
-<<<<<<< HEAD
 eval "$(rbenv init - zsh)"
->>>>>>> de5c4a1 (test commit)

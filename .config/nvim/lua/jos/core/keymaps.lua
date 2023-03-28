@@ -5,7 +5,8 @@ local keymap = vim.keymap -- conciseness
 --general
 keymap.set("i", "jk", "<ESC>")
 keymap.set("n", "ö", "$")
-keymap.set("i", "jw", "<esc>:w<cr>")
+-- keymap.set("i", "jw", "<esc>:w<cr>")
+keymap.set("n", "<leader>w", ":w<CR>")
 
 --clear search highlights
 keymap.set("n", "<leader>nh", ":nohl<CR>")

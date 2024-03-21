@@ -31,6 +31,7 @@ end
 
 config.color_scheme = scheme_for_appearance(get_appearance())
 --
+config.font = wezterm.font("Jetbrains Mono")
 config.font_size = 14
 config.enable_tab_bar = true
 config.hide_tab_bar_if_only_one_tab = true
@@ -39,12 +40,6 @@ config.exit_behavior = "Close"
 config.leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 }
 config.window_background_opacity = 0.9
 config.text_background_opacity = 0.8
-config.window_padding = {
-	left = "1.5cell",
-	right = "1.5cell",
-	top = "1.5cell",
-	bottom = "1.5cell",
-}
 
 config.keys = {
 	{

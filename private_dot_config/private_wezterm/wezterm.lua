@@ -31,15 +31,15 @@ end
 
 config.color_scheme = scheme_for_appearance(get_appearance())
 --
-config.font = wezterm.font("FiraCode Nerd Font Mono")
+-- config.font = wezterm.font("FiraCode Nerd Font Mono")
 config.font_size = 14
 config.enable_tab_bar = true
 config.hide_tab_bar_if_only_one_tab = true
 config.audible_bell = "Disabled"
 config.exit_behavior = "Close"
 config.leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 }
-config.window_background_opacity = 0.9
-config.text_background_opacity = 0.8
+config.window_background_opacity = 0.8
+config.text_background_opacity = 0.7
 
 config.keys = {
 	{

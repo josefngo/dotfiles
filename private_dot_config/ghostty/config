@@ -1,0 +1,6 @@
+font-size = 18
+keybind = cmd+backspace=text:\x15
+theme = light:tokyonight-day,dark:tokyonight
+font-feature = -liga
+font-feature = -calt
+font-feature = -dlig

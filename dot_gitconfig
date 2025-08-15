@@ -1,6 +1,6 @@
 [user]
   name = josefngo
-  email = josefn@chalmers.se
+  email = anxious_concept0p@icloud.com
 [init]
   defaultBranch = main 
 [push]
@@ -13,8 +13,4 @@
   colorMoved = plain
 [branch]
   autosetuprebase = always
-
-
-[includeIf "gitdir:~/Documents/dev/burt/"]
-  path = ~/.gitconfig-work
 

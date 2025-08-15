@@ -140,6 +140,7 @@ export PATH="$PATH:$HOME/.local/bin"
     }
 #
 
+export XDG_CONFIG_HOME=$HOME/.config
 export PATH=$PATH:/Users/josefngo/Documents/dev/libexec
 export MANPAGER='nvim +Man!'
 #export GPG_TTY=$(tty)
